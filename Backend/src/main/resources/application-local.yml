@@ -1,0 +1,29 @@
+server:
+  port: 8080
+
+## -Dspring.profiles.active=local
+
+spring:
+  servlet:
+    multipart:
+      enabled:true
+      max-file-size:50MB
+      max-request-size:100MB
+  application:
+    name: swap.be
+  datasource:
+    url: jdbc:postgresql://localhost:5432/jobts
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: false
+
+jwt:
+  secret: "QWx3YXlzLXNlY3VyZS1hbmQtc3Ryb25nLWtleS1mb3Itam90LTUxMi1zZWN1cml0eS0xMjM0NTY3ODkwMTIzNDU2Nzg5"
+  expiredDay: 86400000
+
+expiredTime:
+  hour: 1

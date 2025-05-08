@@ -1,0 +1,9 @@
+services:
+  nextjs:
+    build: .
+    ports:
+      - "5001:5001"
+    environment:
+      - NODE_ENV=production
+    command: ["npm", "run", "start"]
+    network_mode: "host"

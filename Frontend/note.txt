@@ -1,0 +1,10 @@
+takvim menüsü ekleyeceğiz önemli deadlinelar toplantılar falan filan görülecek.
+
+backlog ince bir liste olacak.
+
+sprint bilgisi board ekranında olacak. sprint ilişikisi kurulsun.
+
+db düzenlecek varchar255 yerine enum olanlar int oalcak -> gereksiz uzunluk varsa varchar 20 gibi düzelt.
+
+db lerde createdDate ve updateDate BaseEntity olsun userId de olacak kim create etti updateBy ve createBy olacak, user tablosundada userId ve createdBy bigileri yine olacak kim ekledi bu user ı?.
+
