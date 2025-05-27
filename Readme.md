@@ -39,16 +39,19 @@ This project utilizes the following technologies:
 
 * **Frontend:**
     * [Next.js](https://nextjs.org/)
+    * [Next Auth.js](https://next-auth.js.org/)
     * [Material UI](https://mui.com/)
     * [Tailwind CSS](https://tailwindcss.com/)
     * [TypeScript](https://www.typescriptlang.org/)
 * **Backend:**
-    * [Spring Boot](https://spring.io/projects/spring-boot)
+    * [Spring Boot 3.0](https://spring.io/projects/spring-boot)
     * [Spring Security](https://spring.io/projects/spring-security)
     * [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
     * [PostgreSQL](https://www.postgresql.org/)
     * [Hibernate](https://hibernate.org/)
     * [JPA (Java Persistence API)](https://jakarta.ee/specifications/persistence/)
+    * Spring MVC- Spring Data
+    * JWT - JWT Authentication with Spring Security using PostgreSQL
 
 ## Setup
 
